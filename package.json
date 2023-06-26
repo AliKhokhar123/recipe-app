@@ -1,0 +1,47 @@
+{
+  "name": "RecipeApp",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "babel-preset-react-native": "^4.0.1",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-config-rallycoding": "^3.2.0",
+    "jest": "^23.6.0",
+    "jest-expo": "~30.0.0",
+    "prettier": "^1.15.3",
+    "react-test-renderer": "^16.6.1"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "expo start",
+    "eject": "expo eject",
+    "android": "expo android",
+    "ios": "expo ios",
+    "test": "jest",
+    "lint": "eslint src"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^8.0.0",
+    "@groceristar/groceristar-fetch": "^1.1.33",
+    "expo": "^27.1.0",
+    "expo-cli": "^2.6.14",
+    "lodash": "^4.17.11",
+    "native-base": "^2.8.2",
+    "path": "^0.12.7",
+    "raven-js": "^3.27.0",
+    "react": "16.6.3",
+    "react-native": "^0.57.8",
+    "react-native-animatable": "^1.3.0",
+    "react-native-checkbox": "^2.0.0",
+    "react-native-collapsible": "^1.4.0",
+    "react-native-elements": "^0.19.1",
+    "react-native-loader": "^1.2.1",
+    "react-native-material-dropdown": "^0.11.1",
+    "react-native-status-bar-height": "^2.2.0",
+    "react-native-typography": "^1.4.0",
+    "react-navigation": "^3.0.9"
+  }
+}
